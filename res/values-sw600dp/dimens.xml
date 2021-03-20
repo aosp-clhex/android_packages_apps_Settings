@@ -31,4 +31,8 @@
 
     <!-- Lock pattern view size, align sysui biometric_auth_pattern_view_size -->
     <dimen name="biometric_auth_pattern_view_size">348dp</dimen>
+
+    <!-- App list preference -->
+    <dimen name="app_list_margin_start">80dp</dimen>
+
 </resources>

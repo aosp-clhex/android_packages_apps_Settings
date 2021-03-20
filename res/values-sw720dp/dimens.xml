@@ -13,7 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
     <!-- ActionBar contentInsetStart -->
     <dimen name="actionbar_contentInsetStart">80dp</dimen>
@@ -25,4 +24,7 @@
 
     <!-- Lock pattern view size, align sysui biometric_auth_pattern_view_size -->
     <dimen name="biometric_auth_pattern_view_size">348dp</dimen>
+
+    <!-- App list preference -->
+    <dimen name="app_list_margin_start">80dp</dimen>
 </resources>
