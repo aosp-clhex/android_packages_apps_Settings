@@ -81,6 +81,10 @@
     <string name="app_downgrade_title">Allow application downgrade</string>
     <string name="app_downgrade_summary">Allows you to downgrade applications. may lead to crashes and data corruption.</string>
     
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Enable blurs</string>
+    <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
+    
     <!-- QS Brightness slider haptic -->
     <string name="qs_brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
 
