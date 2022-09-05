@@ -34,7 +34,7 @@
     <!-- Disable QS -->
     <string name="disable_qs_title">Hide QS in secure lockscreen</string>
     <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
-    
+
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Clear all notification button</string>
     <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
@@ -54,6 +54,11 @@
     <string name="battery_ext_cust_title">Customizations</string>
     <string name="battery_ext_status_title">Customizations</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    
     <!-- Battery Temperature -->
     <string name="battery_temp">Battery temperature</string>
 
