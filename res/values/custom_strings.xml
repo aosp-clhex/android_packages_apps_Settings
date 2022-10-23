@@ -54,6 +54,10 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Block sensors</string>
     <string name="sensor_block_summary">Selectively block apps from accessing certain battery draining sensors</string>
