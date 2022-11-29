@@ -218,7 +218,14 @@
         android:key="qs_brightness_slider_haptic"
         android:title="@string/qs_brightness_slider_haptic_title"
         android:defaultValue="false"
-        settings:controller="com.android.settings.sound.BrightnessSliderHapticPreferenceController" />
+        settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
+
+    <!-- Volume slider haptic -->
+    <com.clhex.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_slider_haptic"
+        android:title="@string/volume_slider_haptic_title"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
 
     <!-- Dock speaker plays -->
     <DropDownPreference
