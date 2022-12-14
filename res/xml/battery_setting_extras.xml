@@ -25,4 +25,5 @@
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
         android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
+
 </PreferenceScreen>
