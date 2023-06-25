@@ -213,6 +213,13 @@
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
 
+    <!-- QS Bightness slider haptic -->
+    <com.clhex.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_brightness_slider_haptic"
+        android:title="@string/qs_brightness_slider_haptic_title"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.sound.BrightnessSliderHapticPreferenceController" />
+
     <!-- Dock speaker plays -->
     <DropDownPreference
         android:key="dock_audio_media"
