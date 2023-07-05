@@ -7,4 +7,22 @@
     <string name="media_artwork_fade_percent_title">Fade percent for media notification artwork</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
     <string name="ls_media_artwork_fade_percent_title">Fade amount for lockscreen media artwork</string>
+
+    <!-- QuickSettings -->
+    <string name="quicksettings_cus_title">Quick Settings</string>
+    <string name="quicksettings_cus_summary">Customize QuickSettings</string>
+
+    <!-- QS brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Adjust brightness slider from the Quick Settings</string>
+    <string name="qs_brightness_slider_never">Never show</string>
+    <string name="qs_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_brightness_slider_always">Show always</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 </resources>
