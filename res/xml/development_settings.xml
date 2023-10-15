@@ -107,12 +107,6 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
-        <Preference
-            android:key="running_apps"
-            android:title="@string/runningservices_settings_title"
-            android:summary="@string/runningservices_settings_summary"
-            android:fragment="com.android.settings.applications.RunningServices" />
-
         <com.android.settings.development.ColorModePreference
             android:key="picture_color_mode"
             android:title="@string/picture_color_mode"

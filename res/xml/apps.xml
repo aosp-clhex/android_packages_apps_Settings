@@ -75,6 +75,12 @@
         <intent android:action="android.settings.MANAGE_CLONED_APPS_SETTINGS"/>
     </Preference>
 
+        <Preference
+            android:key="running_apps"
+            android:title="@string/runningservices_settings_title"
+            android:summary="@string/runningservices_settings_summary"
+            android:fragment="com.android.settings.applications.RunningServices" />
+
     <PreferenceCategory
         android:key="dashboard_tile_placeholder"
         android:order="10"/>
