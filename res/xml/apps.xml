@@ -89,6 +89,12 @@
         <intent android:action="android.intent.action.MANAGE_UNUSED_APPS"/>
     </Preference>
 
+        <Preference
+            android:key="running_apps"
+            android:title="@string/runningservices_settings_title"
+            android:summary="@string/runningservices_settings_summary"
+            android:fragment="com.android.settings.applications.RunningServices" />
+
     <Preference
         android:key="app_battery_usage"
         android:order="17"
