@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <!-- Media artwork -->
+    <string name="ls_media_prefcatg_title">Lockscreen Media Art</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media notification artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media notification artwork</string>
+    <string name="media_artwork_fade_percent_title">Fade percent for media notification artwork</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
+    <string name="ls_media_artwork_fade_percent_title">Fade amount for lockscreen media artwork</string>
+</resources>
