@@ -150,23 +150,26 @@
     <PreferenceCategory
         android:key="ls_media_prefcatg"
         android:title="@string/ls_media_prefcatg_title"
-        android:order="1002"
-        settings:searchable="false">
+        android:order="1002">
 
-        <com.custom.support.preferences.SecureSettingSwitchPreference
+
+        <com.clhex.support.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/lockscreen_media_art_title"
-            android:defaultValue="false"/>
+            android:defaultValue="false"
+            app:isLineageSettings="true"
+            app:position="middle" />
 
-        <com.custom.support.preferences.SystemSettingListPreference
+        <com.clhex.support.preferences.SystemSettingListPreference
             android:key="lockscreen_albumart_filter"
             android:title="@string/lockscreen_albumart_filter_title"
             android:entries="@array/lockscreen_albumart_filter_entries"
             android:entryValues="@array/lockscreen_albumart_filter_values"
             android:dependency="lockscreen_media_metadata"
-            android:defaultValue="0"/>
+            android:defaultValue="0"
+            app:position="middle" />
 
-        <com.custom.support.preferences.CustomSeekBarPreference
+        <com.clhex.support.preferences.CustomSeekBarPreference
             android:key="ls_media_filter_blur_radius"
             android:title="@string/lockscreen_albumart_filter_blur_radius_title"
             android:dependency="lockscreen_media_metadata"
@@ -175,13 +178,14 @@
             settings:min="2"
             app:position="middle" />
 
-        <com.custom.support.preferences.CustomSeekBarPreference
+        <com.clhex.support.preferences.CustomSeekBarPreference
             android:key="ls_media_artwork_fade_percent"
             android:title="@string/ls_media_artwork_fade_percent_title"
             android:dependency="lockscreen_media_metadata"
             android:defaultValue="30"
             android:max="80"
-            settings:min="1"/>
-                </PreferenceCategory>
+            settings:min="1"
+            app:position="middle" />
+            </PreferenceCategory>
 
 </PreferenceScreen>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017-2018 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,30 +14,25 @@
  * limitations under the License.
  */
 
-package com.custom.support.preferences;
+package com.clhex.support.preferences;
 
 import android.content.Context;
-import androidx.preference.ListPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.provider.Settings;
 
-public class SystemSettingListPreference extends ListPreference {
+public class ListPreference extends androidx.preference.ListPreference {
     private boolean mAutoSummary = false;
 
-    public SystemSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
+    public ListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingListPreference(Context context, AttributeSet attrs) {
+    public ListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingListPreference(Context context) {
+    public ListPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
     @Override
@@ -56,14 +51,5 @@ public class SystemSettingListPreference extends ListPreference {
     private void setSummary(CharSequence summary, boolean autoSummary) {
         mAutoSummary = autoSummary;
         super.setSummary(summary);
-    }
-
-    @Override
-    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        // This is what default ListPreference implementation is doing without respecting
-        // real default value:
-        //setValue(restoreValue ? getPersistedString(mValue) : (String) defaultValue);
-        // Instead, we better do
-        setValue(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
     }
 }

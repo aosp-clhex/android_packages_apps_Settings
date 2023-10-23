@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.custom.support.preferences;
+package com.clhex.support.preferences;
 
 import android.content.Context;
 import android.text.TextUtils;

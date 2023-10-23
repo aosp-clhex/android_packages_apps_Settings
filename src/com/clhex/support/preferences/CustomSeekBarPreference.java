@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.custom.support.preferences;
+package com.clhex.support.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
