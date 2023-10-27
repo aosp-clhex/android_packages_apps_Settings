@@ -31,7 +31,7 @@
             settings:useAdminDisabledSummary="true"
             settings:userRestriction="no_config_brightness"/>
 
-        <com.android.settingslib.PrimarySwitchPreference
+        <com.android.settings.display.AutoBrightnessPreference
             android:key="auto_brightness_entry"
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
@@ -101,11 +101,12 @@
             Standard auto-rotation preference that will be shown when device state based
             auto-rotation settings are NOT available.
           -->
-        <SwitchPreference
+        <com.android.settingslib.PrimarySwitchPreference
             android:key="auto_rotate"
             android:title="@string/accelerometer_title"
+            android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
             settings:keywords="@string/keywords_auto_rotate"
-            settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
+            settings:controller="com.android.settings.display.SmartAutoRotatePreferenceController"/>
 
         <!--
             Auto-rotation preference that will be shown when device state based auto-rotation
@@ -175,11 +176,6 @@
         <SwitchPreference
             android:key="lift_to_wake"
             android:title="@string/lift_to_wake_title"/>
-
-        <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"/>
 
         <ListPreference
             android:key="theme"
