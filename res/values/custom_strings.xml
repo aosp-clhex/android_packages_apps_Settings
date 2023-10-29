@@ -22,6 +22,10 @@
     <string name="qs_brightness_slider_position_top">Top</string>
     <string name="qs_brightness_slider_position_bottom">Bottom</string>
 
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    
     <!-- QS Brightness slider haptic -->
     <string name="qs_brightness_slider_haptic_title">Vibrate on brightness slider changes</string>
 
