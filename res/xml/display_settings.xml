@@ -187,18 +187,11 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
 
-    <com.clhex.support.preferences.SecureSettingSwitchPreference
-        android:key="qs_show_data_usage"
-        android:title="@string/qs_show_data_usage_title"
-        android:order="27"
-        android:summary="@string/qs_show_data_usage_summary"
-        android:defaultValue="true" />
 
         <Preference
-            android:key="quicksettings_cus_title"
-            android:title="@string/quicksettings_cus_title"
-            android:summary="@string/quicksettings_cus_summary"
-            android:fragment="com.android.settings.display.QSSettingsFrag" />
+            android:key="cust_catg_title_key"
+            android:title="@string/cust_catg_title"
+            android:fragment="com.android.settings.display.CustSettingsFrag" />
     </PreferenceCategory>
 
             

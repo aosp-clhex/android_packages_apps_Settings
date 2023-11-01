@@ -8,9 +8,9 @@
     <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
     <string name="ls_media_artwork_fade_percent_title">Fade amount for lockscreen media artwork</string>
 
-    <!-- QuickSettings -->
-    <string name="quicksettings_cus_title">Quick Settings</string>
-    <string name="quicksettings_cus_summary">Customize QuickSettings</string>
+    <!-- Customization -->
+    <string name="cust_catg_title">Customizations</string>
+    <string name="other_cust_title">Misc</string>
     
     <!-- QS footer data usage -->
     <string name="qs_show_data_usage_title">Show data usage</string>
