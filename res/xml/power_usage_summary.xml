@@ -68,6 +68,11 @@
         android:title="@string/battery_light_title"
         settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
 
+        <Preference
+            android:key="battery_settings_more"
+            android:title="@string/battery_settings_extra"
+            android:fragment="com.android.settings.custom.BatterySettingExtras" />
+            
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"

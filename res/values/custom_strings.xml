@@ -41,6 +41,12 @@
     <string name="qs_brightness_slider_position_top">Top</string>
     <string name="qs_brightness_slider_position_bottom">Bottom</string>
     
+    <!-- Battery Temperature -->
+    <string name="battery_settings_extra">Battery Status and Customization</string>
+
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Battery temperature</string>
+
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Allow power menu on lockscreen</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
