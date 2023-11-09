@@ -44,6 +44,18 @@ public class BatterySettingExtras extends SettingsPreferenceFragment {
     @VisibleForTesting
     Preference mBatteryTempPref;
 
+    @VisibleForTesting
+    void restartBatteryInfoLoader() {
+        if (getContext() == null) {
+            return;
+        }
+        // Skip restartBatteryInfoLoader if battery is not present.
+        if (!mIsBatteryPresent) {
+            return;
+        }
+        restartLoader(LoaderIndex.BATTERY_INFO_LOADER, Bundle.EMPTY, mBatteryInfoLoaderCallbacks);
+    }
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -57,6 +69,7 @@ public class BatterySettingExtras extends SettingsPreferenceFragment {
         } else {
             mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
         }
+        restartBatteryInfoLoader();
     }
 
     @Override
