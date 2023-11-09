@@ -14,6 +14,10 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/battery_settings_extra" >
     
+    <PreferenceCategory
+        android:key="battery_ext_cust"
+        android:title="@string/battery_ext_cust_title">
+
     <SwitchPreference
         android:key="battery_light_enabled"
         android:title="@string/battery_light_title"
@@ -24,10 +28,18 @@
         android:title="@string/battery_percent_title"
         android:summary="@string/battery_percent_summary"
         android:fragment="com.android.settings.fuelgauge.StatusBarBatterySettings"/>
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="battery_ext_status"
+        android:title="@string/battery_ext_status_title">
 
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
         android:selectable="false" />
+        
+    </PreferenceCategory>
 
 </PreferenceScreen>
