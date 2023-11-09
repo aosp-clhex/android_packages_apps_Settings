@@ -18,11 +18,6 @@
         android:key="battery_ext_cust"
         android:title="@string/battery_ext_cust_title">
 
-    <SwitchPreference
-        android:key="battery_light_enabled"
-        android:title="@string/battery_light_title"
-        settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
-
     <Preference
         android:key="statusbar_battery"
         android:title="@string/battery_percent_title"
@@ -35,16 +30,4 @@
         android:summary="@string/sensor_block_summary"
         android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="battery_ext_status"
-        android:title="@string/battery_ext_status_title">
-
-    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp"
-        android:selectable="false" />
-        
-    </PreferenceCategory>
-
 </PreferenceScreen>
