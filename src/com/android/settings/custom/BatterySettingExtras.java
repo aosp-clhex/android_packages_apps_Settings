@@ -1,5 +1,7 @@
 package com.android.settings.custom;
 
+import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpdateType;
+
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.database.ContentObserver;
@@ -48,7 +50,7 @@ public class BatterySettingExtras extends SettingsPreferenceFragment {
         mBatteryTempPref = (Preference) findPreference(KEY_BATTERY_TEMP);
     }
 
-    protected void refreshUi() {
+    protected void refreshUi(@BatteryUpdateType int refreshType) {
         final Context context = getContext();
         if (BatteryInfo.batteryTemp != 0f) {
             mBatteryTempPref.setSummary(BatteryInfo.batteryTemp / 10 + " °C");
