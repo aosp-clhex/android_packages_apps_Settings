@@ -210,6 +210,7 @@
         <Preference
             android:key="cust_catg_title_key"
             android:title="@string/cust_catg_title"
+            android:summary="@string/other_cust_summary"
             android:fragment="com.android.settings.display.CustSettingsFrag" />
     </PreferenceCategory>
 
