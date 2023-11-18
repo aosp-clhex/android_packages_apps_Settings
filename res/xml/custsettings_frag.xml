@@ -16,10 +16,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/cust_catg_title">
-    
-    <PreferenceCategory
-        android:key="qs_brightness_slider_catg"
-        android:title="@string/qs_brightness_slider_title">
 
         <com.clhex.support.preferences.SecureSettingListPreference
             android:key="qs_show_brightness_slider"
@@ -40,10 +36,6 @@
             android:title="@string/qs_auto_brightness_title"
             android:summary="@string/qs_auto_brightness_summary"
             android:defaultValue="true" />
-    </PreferenceCategory>
-    <PreferenceCategory
-        android:key="other_cust_title_key"
-        android:title="@string/other_cust_title">
 
     <com.clhex.support.preferences.SecureSettingSwitchPreference
         android:key="qs_show_data_usage"
@@ -58,6 +50,5 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
-                </PreferenceCategory>
 
 </PreferenceScreen>

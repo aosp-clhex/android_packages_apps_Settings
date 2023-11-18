@@ -51,7 +51,6 @@
     
     <!-- Battery Extra -->
     <string name="battery_settings_extra">Battery Customizations</string>
-    <string name="battery_ext_cust_title">Customizations</string>
     <string name="battery_ext_summary">Explore options to Personalize your experience and optimize usage.</string>
 
     <!-- Per-app volume control -->

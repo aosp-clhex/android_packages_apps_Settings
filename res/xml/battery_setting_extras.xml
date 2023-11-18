@@ -13,10 +13,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/battery_settings_extra" >
-    
-    <PreferenceCategory
-        android:key="battery_ext_cust"
-        android:title="@string/battery_ext_cust_title">
 
     <Preference
         android:key="statusbar_battery"
@@ -29,5 +25,4 @@
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
         android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
-    </PreferenceCategory>
 </PreferenceScreen>
