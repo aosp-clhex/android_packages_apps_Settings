@@ -27,7 +27,7 @@
     <string name="keywords_display_dc_dimming">dc dimming, анти, мерцание, глаз, напряжение</string>
 
     <!-- Adaptive Playback -->
-<string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_enabled">Использовать умную паузу</string>
     <string name="adaptive_playback_disabled_summary">Выкл.</string>
     <string name="adaptive_playback_intro_text">Адаптивное воспроизведение автоматически приостанавливает воспроизведение при отключении громкости и автоматически возобновляется в течение заданного времени.</string>
