@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Customization -->
+    <string name="cust_catg_title">Расщиренные настройки</string>
+    <string name="other_cust_title">Разное</string>
+        <string name="other_cust_summary">Настройте быстрые настройки, значки и многое другое.</string>
+
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Отображать использование данных</string>
+    <string name="qs_show_data_usage_summary">Показывать ежедневное использование данных мобильного/Wi-Fi в быстрых настроек</string>
+    
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Перемешать клавиши</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать кнопки ввода PIN-кода при разблокировке устройства</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Рассвет</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с момента заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
+    <string name="sleep_mode_toggles_title">Плитки</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключить Wi-Fi при включенном спящем режиме</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключать Bluetooth в спящем режиме</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить передачу мобильных данных</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить передачу мобильных данных, когда включен спящий режим</string>
+    <string name="sleep_mode_location_toggle_title">Выключать определение местоположения</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать определение местоположения в спящем режиме</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключать датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключить датчики, когда включен спящий режим</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить определенные службы, чтобы сэкономить заряд батареи и отключить звук телефона во время сна..</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Включи сейчас</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Выключить сейчас</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Включить до восхода солнца</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Выключить до захода солнца</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Включить до тех пор, пока <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Выключить до тех пор, пока <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикация батареи в строке состояния</string>
+    <string name="battery_percent_summary">Настройте стили значков и текста для индикатора заряда батареи в строке состояния</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполняющийся)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыть</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрыть</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Настройки иконок</string>
+    <string name="icon_manager_summary">Управлениею видимостью значков строки состояния</string>
+   
+    <!-- Mic + Camera indicator -->
+    <string name="mic_camera_indicator_settings_title">Индикатор микрофона и камеры в строке состояния</string>
+    <string name="mic_camera_indicator_settings_description">Показывать индикатор, когда какое-либо приложение использует микрофон или камеру</string>
+
+    <!-- QS brightness slider -->
+    <string name="qs_brightness_slider_title">Ползунок яркости экрана</string>
+    <string name="qs_brightness_slider_summary">Настроить ползунок яркости в быстрых настройках</string>
+    <string name="qs_brightness_slider_never">Никогда не показывать</string>
+    <string name="qs_brightness_slider_expanded">Показать в развернутом виде</string>
+    <string name="qs_brightness_slider_always">Показывать всегда</string>
+    <string name="qs_brightness_slider_position_title">Расположение</string>
+    <string name="qs_brightness_slider_position_top">Сверху</string>
+    <string name="qs_brightness_slider_position_bottom">Снизу</string>
+    
+    <!-- Battery Extra -->
+    <string name="battery_settings_extra">Настройки батареи</string>
+    <string name="battery_ext_summary">Изучите варианты персонализации вашего опыта и оптимизации использования.</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Громкость приложений</string>
+    <string name="app_volume_title">Регулировка громкости для каждого приложения</string>
+    <string name="app_volume_summary">Разрешить устанавливать разные уровни громкости для каждого приложения</string>
+    
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Показывать окно буфера обмена</string>
+    <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
+    
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Блокировка датчиков</string>
+    <string name="sensor_block_summary">Заблокировать доступ к датчикам для некоторых приложений для экономии заряда батареи</string>
+    <string name="sensor_block_app_picker_title">Блокировать датчики для этих приложений</string>
+    <string name="add_sensor_block_package_title">Выбрать приложения, для которых блокируются датчики</string>
+    <string name="add_sensor_block_package_summary">Акселерометр, датчики движения и линейного ускорения будут заблокированы для выбранных приложений</string>
+    <string name="profile_choose_app">Выберите приложение</string>
+    
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Температура батареи</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Разрешить меню питания на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Разрешить доступ к меню питания на защищенном экране блокировки</string>
+    
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в окнах приложений</string>
+    <string name="ignore_window_secure_summary">Это снимает ограничения на снимки экрана и записи экрана для всех приложений. Может повлиять на конфиденциальность, требуется перезапуск приложения..</string>
+
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Разрешить понижение версии приложения</string>
+    <string name="app_downgrade_summary">Разрешение на понижение версии приложений. Может привести к сбоям и повреждению данных.</string>
+    
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Включить размытие</string>
+    <string name="enable_blurs_on_windows_summary">Включает эффект размытия в некоторых элементах пользовательского интерфейса.</string>
+
+    <!-- QS Brightness slider haptic -->
+        <string name="qs_brightness_slider_haptic_title">Тактильный отклик ползунка яркости</string>
+
+    <!-- Volume slider haptic-->
+    <string name="volume_slider_haptic_title">Тактильный отклик при изменении ползунка громкости</string>
+
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Значок адаптивной яркости</string>
+    <string name="qs_auto_brightness_summary">Показать переключатель адаптивной яркости рядом с ползунком яркости</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">Индикатор батареи</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Улучшите свой игровой опытe</string>
+
+    <!-- Heads up options -->
+    <string name="notifications_category_title">Защита от надоедливых уведомлений</string>
+    <string name="less_boring_heads_up_title">Сделать всплывающие уведомления менее раздражающими</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для приложения для приложений телефона и собщений, если они не на переднем плане</string>
+</resources>
